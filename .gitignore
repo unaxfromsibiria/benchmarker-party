@@ -1,3 +1,5 @@
+.vscode/
+site/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +129,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Node stuff
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+/.awcache/*
+/.cache-loader/*
+
+# Idea stuff
+.idea/
+
+# VScode stuff
+.vscode/
+
+# MacOS stuff
+.DS_Store

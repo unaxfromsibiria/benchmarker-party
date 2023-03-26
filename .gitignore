@@ -147,3 +147,5 @@ npm-debug.log.*
 
 # MacOS stuff
 .DS_Store
+
+*/rust_impl/target/*

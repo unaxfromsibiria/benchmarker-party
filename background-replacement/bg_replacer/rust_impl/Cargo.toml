@@ -1,0 +1,8 @@
+[package]
+name = "rust_impl"
+version = "0.0.1"
+authors = ["Michael Vorotyntsev <linkofwise@gmail.com>"]
+
+[lib]
+name = "rust_impl"
+crate-type = ["dylib"]

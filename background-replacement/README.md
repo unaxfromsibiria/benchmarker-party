@@ -56,7 +56,7 @@ I collected the average milliseconds from stdout after comands above, it possibl
 | 3.10 | numba+np | 116 |
 | 3.10 | cython | 4.2 |
 | 3.10 | cffi | 3.3 |
-| 3.10 | rust | soon |
+| 3.11 | rust | I will add asap |
 | 3.11 | numpy | 36.3 |
 | 3.11 | np+py | 804 |
 | 3.11 | cython | 4.2 |

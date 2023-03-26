@@ -11,6 +11,7 @@ except ImportError:
 from .form import create as create_ui
 from .np_native import Replaser as NpNativeReplaser
 from .np_py import Replaser as NpPyReplaser
+from .rust_impl import Replaser as RustReplaser
 
 try:
     from .numba import Replaser as NmReplaser
@@ -26,6 +27,7 @@ names = {
     "numba+np": NmNpReplaser,
     "cython": CReplaser,
     "cffi": CFFIReplaser,
+    "rust": RustReplaser,
 }
 
 
